@@ -17,12 +17,12 @@ const cookieParser = require("cookie-parser")
 // const routes = require('./routes');
 const path = require('path');
 
-require('./passport-setup')
+// require('./passport-setup')
 require("dotenv").config()
 
 //ejs//
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+// app.set('views', __dirname + '/views');
+// app.set('view engine', 'ejs');
 
 // DEPLOYMENT
 
@@ -39,6 +39,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use(fileUpload());
 
 
+
+
+// "devDependencies": {
+  //   "dotenv": "^10.0.0",
+  //   "nodemon": "^2.0.15"
+  // }
 
 
 
