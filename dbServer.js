@@ -41,10 +41,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-// "devDependencies": {
-  //   "dotenv": "^10.0.0",
-  //   "nodemon": "^2.0.15"
-  // }
 
 
 
