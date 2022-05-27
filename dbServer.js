@@ -24,6 +24,7 @@ require("dotenv").config()
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+// DEPLOYMENT
 
 app.use(express.json())
 app.use(cookieParser())
